@@ -3,8 +3,7 @@ This is my fifth project, which was assigned as homework in university. The cons
 ### Main Assignment
 ### Requirements for the class library
 The class library must contain two classes:
-1) MyType class (MyType is a stub and should be replaced based on understanding the data from the job file with a more appropriate name
-for the class) representing the objects described in the JSON file of the job. The fields of the class
+1) Customer class representing the objects described in the JSON file of the job. The fields of the class
 must be readable, but closed to writing. The class must contain a constructor to initialize its fields. Choose independently an identifier
 class identifier that will logically describe the object and satisfy Microsoft naming rules.
 2) Static class JsonParser, containing two static methods: WriteJson and ReadJson. These methods must use the data streams defined in the
@@ -21,7 +20,7 @@ or implicit invocation.
 10) It is allowed to use your own (self-written) class hierarchies in addition to those proposed in the assignment, but the OOP principles requirements to them are preserved.
 ### Requirements for the console application
 The console application uses the class library described above, using the methods of the
-static class JsonParser retrieves data for a collection of objects of type MyType, the data
+static class JsonParser retrieves data for a collection of objects of type Customer, the data
 for the objects are obtained from JSON representations of the individual variant file. The type of the collection
 for objects to choose independently.
 The console application also provides an interface for the user to interact with the
